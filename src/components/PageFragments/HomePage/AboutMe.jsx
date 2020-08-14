@@ -12,10 +12,8 @@ const pageText = {
     and ELK stack. Building fancy UI's just like this one that your seeing 😅 and writing blogs about tech stacks
     is what Rolwin loves to do. Check my blog which I update every week for some Javascript and some
     cool notes on web technologies.`,
-  paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
-    have hands on experience working with cloud infrastructures like <b>AWS/GCP</b> and have deployed applications
-    keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool
-    tools I use for <b>CI/ CD</b>. I'm always a learner and a self taught programmer.`,
+  paraTwo: `データサイエンス、データ分析、機械学習に興味があります`,
+  paraThree: `------`,
 };
 
 const AboutMe = () => {
@@ -23,17 +21,16 @@ const AboutMe = () => {
   return (
     <>
       <div>
-        <SEO
+        {/* <SEO
           title="About"
           description={description}
           path=""
           keywords={['Rolwin', 'Reevan', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
-        />
+        /> */}
         <h1 className="titleSeparate">About Me</h1>
-        <p>
-          {pageText.paraOne}
-        </p>
-        <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
+        <p>{pageText.paraOne}</p>
+        <p>{pageText.paraTwo}</p>
+        <p>{pageText.paraThree}</p> 
       </div>
       <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
