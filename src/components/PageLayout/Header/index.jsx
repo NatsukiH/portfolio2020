@@ -37,18 +37,18 @@ export default () => {
               </Link>
             </li>
             <li className={style.navItem}>
-              <Link to="/contact" onClick={toggleMenu} activeClassName={style.anchorActive}>
-                Contact
+              <Link to="/tags" onClick={toggleMenu} activeClassName={style.anchorActive}>
+                Tags
               </Link>
             </li>
             <li className={style.navItem}>
               <Link to="/blog" onClick={toggleMenu} activeClassName={style.anchorActive}>
-                Blog
+                Outputs
               </Link>
             </li>
             <li className={style.navItem}>
-              <Link to="/tags" onClick={toggleMenu} activeClassName={style.anchorActive}>
-                Tags
+              <Link to="/contact" onClick={toggleMenu} activeClassName={style.anchorActive}>
+                Contact
               </Link>
             </li>
             <li className={style.navItem}>
