@@ -1,6 +1,6 @@
 ---
 title: よわよわ大学生がKaggleの世界を覗いてみた話
-tags: [ dataScience ]
+tags: [ dataScience, python ]
 date: 2020-07-01
 path: blog/yowayowa_kaggle
 cover: ./top.PNG

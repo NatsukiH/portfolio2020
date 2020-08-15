@@ -1,6 +1,6 @@
 ---
 title: "実際のコードで流れを感じるDeepLearning超入門"
-tags: [machineLearning]
+tags: [machineLearning, python]
 date: 2020-05-15
 path: blog/deeplearning_nyuumonn
 cover: ./top.PNG

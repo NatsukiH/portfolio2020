@@ -6,6 +6,8 @@ import style from './header.module.less';
 import '../../../styles/global.less';
 import { useWindowSize } from '../../../utils/hooks';
 
+import Cursor from '../../PageFragments/Cursor.jsx';
+
 export default () => {
   const [menu, setMenu] = useState(false);
 
@@ -59,6 +61,7 @@ export default () => {
           </ul>
         </div>
       </Layout>
+      <Cursor />
     </>
   );
 };
