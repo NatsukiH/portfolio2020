@@ -32,20 +32,20 @@ const DomContent = () => (
       {/* <div className={`${style.badge} ${style.badgeGray}`}>Software Engineer</div> */}
       <div className="centerAlign box">
         {/* <a href={facebook} target="_blank" label="button" rel="noopener noreferrer"><FA name="facebook-f" /></a> */}
-        <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter fa-lg" /></a>
-        <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FA name="github fa-lg" /></a>
+          <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FeatherIcon size="40" icon="twitter" /></a>
+          <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FeatherIcon size="40" icon="github" /></a>
         {/* <a href={instagram} target="_blank" label="button" rel="noopener noreferrer"><FA name="instagram" /></a> */}
       </div>
       <ul className={`box ${style.badge} contactBlock`}>
         <li className={`${style.contactBlockItem}`}>
           <span>
-            <FeatherIcon size="19" icon="calendar" />
+            <FeatherIcon size="30" icon="calendar" />
             {' '}
           </span>
 &nbsp; &nbsp; July 27,1998
         </li>
         <li className={`${style.contactBlockItem}`}>
-          <span><FeatherIcon size="19" icon="mail" /></span>
+          <span><FeatherIcon size="30" icon="mail" /></span>
           {' '}
 {/* &nbsp; &nbsp; Bangalore, India
         </li>

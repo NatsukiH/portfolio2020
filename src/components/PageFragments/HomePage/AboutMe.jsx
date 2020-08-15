@@ -21,6 +21,11 @@ const pageText = {
   Ex3: 'オンコン（2020.7）',
   Ex4: 'サマーハッカソン（2020.8）',
   Ex5: 'Open Huck U（2020.9）',
+
+
+  Skill0: 'TOEIC: 710',
+  Skill1: '英検2級',
+  Skill2: '基本情報技術者試験合格'
 };
 
 const AboutMe = () => {
@@ -51,62 +56,77 @@ const AboutMe = () => {
         <p>{pageText.Ex4}</p>
         <p>{pageText.Ex5}</p>
       </div>
-      <h1 className="titleSeparate">Skills</h1>
+      <h1 className="titleSeparate">Skills (Programming)</h1>
       <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="location.png"
-            height={60}
-            alt="location image"
-            textH4="Born and bought up in"
-            textH3="Mangalore, KA, India"
+            img="python.svg"
+            alt="python image"
+            textH3="Python (2019~)"
+            textH4="研究(機械学習・データ分析)，AtCoder(茶色)，Kaggleなど主に使用"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="coffee.png"
-            alt="coffee image"
-            textH4="Love Coffee"
-            textH3="Coffee + Me = Happiness"
+            img="c.svg"
+            alt="C"
+            textH3="C (2017~)"
+            textH4="大学の授業や課題で，簡単なゲーム作りや画像処理に使用"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="meeting.png"
-            alt="meeting image"
-            textH4="Socially Awkward"
-            textH3="At times"
+            img="Java.svg"
+            alt="Java image"
+            textH3="Java (2018~)"
+            textH4="大学の授業や課題で，簡単なゲーム作りに使用．JavaFXも少し"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="motorcycle.png"
-            alt="motorcycle image"
-            textH4="Love Riding"
-            textH3="Biker for life"
+            img="HTML-5.svg"
+            alt="HTML image"
+            textH3="HTML (2018~)"
+            textH4="プロジェクトで使用．プロジェクトの公式HPやゲームサイトを制作"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="web.png"
-            alt="web image"
-            textH4="Self Taught Programmer"
-            textH3="Thanks to the Web Resources"
-            height={60}
-            width={60}
+            img="CSS-3.svg"
+            alt="CSS image"
+            textH3="CSS (2018~)"
+            textH4="プロジェクトで使用．プロジェクトの公式HPやゲームサイトを制作"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="graduation.png"
-            alt="graduation image"
-            textH4="Pursued B.Tech in"
-            textH3="Computer Science"
-            height={60}
-            width={60}
+            img="JavaScript.svg"
+            alt="JavaScript image"
+            textH3="JavaScript (2018~)"
+            textH4="プロジェクトと個人で使用．WebVRやLINEbotなどを制作"
+          />
+        </Col>
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="React.svg"
+            alt="React image"
+            textH3="React.js (2020~)"
+            textH4="ハッカソンで使用．"
+          />
+        </Col>
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="Gatsby.svg"
+            alt="Gatsby image"
+            textH3="Gatsby.js (2020~)"
+            textH4="ハッカソンで使用．このサイトはGatsby.jsで制作"
           />
         </Col>
       </Row>
+      <h1 className="titleSeparate">Skills (Others)</h1>
+      <p>{pageText.Skill0}</p>
+      <p>{pageText.Skill1}</p>
+      <p>{pageText.Skill2}</p>
     </>
   );
 };
