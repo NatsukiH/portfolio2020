@@ -14,7 +14,7 @@ const pageText = {
     "★ 2018年度同志社ローム記念館プロジェクト「ProntiatVR」WEB班所属（2018）",
   His2:
     "★ 2019年度同志社ローム記念館プロジェクト「ProntiatVR」WEB班・UX班(サブリーダー)所属（2019）",
-  His3: "★ 同志社大学理工学部 知的機構研究室に所属（2019~）",
+  His3: "★ 同志社大学理工学部 知的機構研究室に所属（2020~）",
   His4: "★ 同志社大学大学院 理工学研究科 知的機構研究室 入学予定（2021）",
   paraFour: `--Experiense--`,
   Ex0: "★ エンジニア志望学生LT大会-TechStudtyGroup#2（2020.5）",
@@ -27,6 +27,7 @@ const pageText = {
   Skill0: "TOEIC: 710",
   Skill1: "英検2級",
   Skill2: "基本情報技術者試験合格",
+  Skill3: "AtCoder: 茶色",
 }
 
 const AboutMe = () => {
@@ -77,7 +78,7 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="Java.svg"
+            img="java.svg"
             alt="Java image"
             textH3="Java (2018~)"
             textH4="大学の授業や課題で，簡単なゲーム作りに使用．JavaFXも少し"
@@ -85,7 +86,7 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="HTML-5.svg"
+            img="html-5.svg"
             alt="HTML image"
             textH3="HTML (2018~)"
             textH4="プロジェクトで使用．プロジェクトの公式HPやゲームサイトを制作"
@@ -93,7 +94,7 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="CSS-3.svg"
+            img="css-3.svg"
             alt="CSS image"
             textH3="CSS (2018~)"
             textH4="プロジェクトで使用．プロジェクトの公式HPやゲームサイトを制作"
@@ -101,7 +102,7 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="JavaScript.svg"
+            img="javascript.svg"
             alt="JavaScript image"
             textH3="JavaScript (2018~)"
             textH4="プロジェクトと個人で使用．WebVRやLINEbotなどを制作"
@@ -109,7 +110,7 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="React.svg"
+            img="react.svg"
             alt="React image"
             textH3="React.js (2020~)"
             textH4="ハッカソンで使用．"
@@ -117,7 +118,7 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="Gatsby.svg"
+            img="gatsby.svg"
             alt="Gatsby image"
             textH3="Gatsby.js (2020~)"
             textH4="ハッカソンで使用．このサイトはGatsby.jsで制作"
@@ -128,6 +129,7 @@ const AboutMe = () => {
       <p>{pageText.Skill0}</p>
       <p>{pageText.Skill1}</p>
       <p>{pageText.Skill2}</p>
+      <p>{pageText.Skill3}</p>
     </>
   )
 }
