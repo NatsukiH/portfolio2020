@@ -1,35 +1,36 @@
-import React from 'react';
-import { Row, Col } from 'antd';
-import AboutTile from '../../AbouTile';
-import { stripTags, domHtml } from '../../../utils/stripTags';
+import React from "react"
+import { Row, Col } from "antd"
+import AboutTile from "../../AbouTile"
+import { stripTags, domHtml } from "../../../utils/stripTags"
 
-import SEO from '../../Seo';
+// import SEO from '../../Seo';
 
 const pageText = {
   paraOne: `こんにちは！同志社大学理工学部インテリジェント情報工学科4年の橋本夏希です！`,
   paraTwo: `データサイエンス・データ分析・機械学習に興味があり、現在ソーシャルメディアデータの知識抽出・可視化について研究しています`,
   paraThree: `--History--`,
-  His0: '★ 同志社大学 理工学部 インテリジェント情報工学科 入学（2017）',
-  His1: '★ 2018年度同志社ローム記念館プロジェクト「ProntiatVR」WEB班所属（2018）',
-  His2: '★ 2019年度同志社ローム記念館プロジェクト「ProntiatVR」WEB班・UX班(サブリーダー)所属（2019）',
-  His3: '★ 同志社大学理工学部 知的機構研究室に所属（2019~）',
-  His4: '★ 同志社大学大学院 理工学研究科 知的機構研究室 入学予定（2021）',
+  His0: "★ 同志社大学 理工学部 インテリジェント情報工学科 入学（2017）",
+  His1:
+    "★ 2018年度同志社ローム記念館プロジェクト「ProntiatVR」WEB班所属（2018）",
+  His2:
+    "★ 2019年度同志社ローム記念館プロジェクト「ProntiatVR」WEB班・UX班(サブリーダー)所属（2019）",
+  His3: "★ 同志社大学理工学部 知的機構研究室に所属（2019~）",
+  His4: "★ 同志社大学大学院 理工学研究科 知的機構研究室 入学予定（2021）",
   paraFour: `--Experiense--`,
-  Ex0: '★ エンジニア志望学生LT大会-TechStudtyGroup#2（2020.5）',
-  Ex1: '★ 技育祭 学生LT大会（2020.7）',
-  Ex2: '★ エンジニア志望学生LT大会-TechStudtyGroup#5（2020.7）',
-  Ex3: '★ オンコン（2020.7）',
-  Ex4: '★ サマーハッカソン（2020.8）',
-  Ex5: '★ Open Huck U（2020.9）',
+  Ex0: "★ エンジニア志望学生LT大会-TechStudtyGroup#2（2020.5）",
+  Ex1: "★ 技育祭 学生LT大会（2020.7）",
+  Ex2: "★ エンジニア志望学生LT大会-TechStudtyGroup#5（2020.7）",
+  Ex3: "★ オンコン（2020.7）",
+  Ex4: "★ サマーハッカソン（2020.8）",
+  Ex5: "★ Open Huck U（2020.9）",
 
-
-  Skill0: 'TOEIC: 710',
-  Skill1: '英検2級',
-  Skill2: '基本情報技術者試験合格'
-};
+  Skill0: "TOEIC: 710",
+  Skill1: "英検2級",
+  Skill2: "基本情報技術者試験合格",
+}
 
 const AboutMe = () => {
-  const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;
+  const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`
   return (
     <>
       <div>
@@ -128,6 +129,6 @@ const AboutMe = () => {
       <p>{pageText.Skill1}</p>
       <p>{pageText.Skill2}</p>
     </>
-  );
-};
-export default AboutMe;
+  )
+}
+export default AboutMe

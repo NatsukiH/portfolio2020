@@ -1,26 +1,24 @@
 /* eslint-disable react/forbid-prop-types */
-import React from 'react';
-import {
-  Layout, Row, Col,
-} from 'antd';
-import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
-import Header from '../../components/PageLayout/Header';
+import React from "react"
+import { Layout, Row, Col } from "antd"
+import PropTypes from "prop-types"
+import { graphql } from "gatsby"
+import Header from "../../components/PageLayout/Header"
 // import SEO from '../../components/Seo';
-import SidebarWrapper from '../../components/PageLayout/Sidebar';
-import TagCard from '../../components/TagCard';
-import Config from '../../../config';
+import SidebarWrapper from "../../components/PageLayout/Sidebar"
+// import TagCard from "../../components/TagCard"
+import Config from "../../../config"
 
 const Tags = ({ data }) => {
-  const { allFile: { edges } } = data;
+  const {
+    allFile: { edges },
+  } = data
   const rawTags = data.allMarkdownRemark.edges
-    .map((edge) => edge.node.frontmatter.tags)
-    .reduce((prev, curr) => prev.concat(curr));
-  rawTags
-    .filter((tag, index) => index === rawTags.indexOf(tag))
-    .sort(); // Remove duplicates and sort values
+    .map(edge => edge.node.frontmatter.tags)
+    .reduce((prev, curr) => prev.concat(curr))
+  rawTags.filter((tag, index) => index === rawTags.indexOf(tag)).sort() // Remove duplicates and sort values
   // const tagPage = Config.pages.tag;
-  const tagData = Config.tags;
+  const tagData = Config.tags
   return (
     <Layout className="outerPadding">
       <Layout className="container">
@@ -36,26 +34,24 @@ const Tags = ({ data }) => {
             <div className="marginTopTitle">
               <h1 className="titleSeparate">#Tags</h1>
             </div>
-            <Row gutter={[30, 20]}>
-              {
-                edges.map((val) => (
-                  <Col key={val.node.name} xs={24} sm={24} md={12} lg={8}>
-                    <TagCard
-                      img={val.node.childImageSharp.fluid.src}
-                      name={val.node.name}
-                      description={tagData[val.node.name].description}
-                      color={tagData[val.node.name].color}
-                    />
-                  </Col>
-                ))
-              }
-            </Row>
+            {/* <Row gutter={[30, 20]}>
+              {edges.map(val => (
+                <Col key={val.node.name} xs={24} sm={24} md={12} lg={8}>
+                  <TagCard
+                    img={val.node.childImageSharp.fluid.src}
+                    name={val.node.name}
+                    description={tagData[val.node.name].description}
+                    color={tagData[val.node.name].color}
+                  />
+                </Col>
+              ))}
+            </Row> */}
           </>
         </SidebarWrapper>
       </Layout>
     </Layout>
-  );
-};
+  )
+}
 
 Tags.propTypes = {
   data: PropTypes.shape({
@@ -67,7 +63,7 @@ Tags.propTypes = {
               tags: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
             }).isRequired,
           }).isRequired,
-        }).isRequired,
+        }).isRequired
       ).isRequired,
     }).isRequired,
     allFile: PropTypes.shape({
@@ -79,11 +75,11 @@ Tags.propTypes = {
               fluid: PropTypes.object.isRequired,
             }).isRequired,
           }).isRequired,
-        }).isRequired,
+        }).isRequired
       ).isRequired,
     }).isRequired,
   }).isRequired,
-};
+}
 
 export const query = graphql`
   {
@@ -109,6 +105,6 @@ export const query = graphql`
       }
     }
   }
-`;
+`
 
-export default Tags;
+export default Tags

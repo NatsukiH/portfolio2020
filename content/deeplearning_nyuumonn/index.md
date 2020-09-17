@@ -7,6 +7,6 @@ cover: ./top.PNG
 excerpt: エンジニア志望学生LT大会-TechStudtyGroup#2で初めて登壇した際のプレゼン資料です．
 ---
 
-[エンジニア志望学生LT大会-TechStudtyGroup#2](https://tech-study-group.connpass.com/event/174486/)で初めて登壇した際の資料です．
+[エンジニア志望学生 LT 大会-TechStudtyGroup#2](https://tech-study-group.connpass.com/event/174486/)で初めて登壇した際の資料です．
 
 https://speakerdeck.com/naa/shi-ji-falsekododeliu-rewogan-zirudeeplearningchao-ru-men
