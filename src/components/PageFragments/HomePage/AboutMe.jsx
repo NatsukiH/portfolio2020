@@ -44,13 +44,13 @@ const AboutMe = () => {
         <h1 className="titleSeparate">About Me</h1>
         <p>{pageText.paraOne}</p>
         <p>{pageText.paraTwo}</p>
-        <h3>{pageText.paraThree}</h3>
+        <h2>{pageText.paraThree}</h2>
         <p>{pageText.His0}</p>
         <p>{pageText.His1}</p>
         <p>{pageText.His2}</p>
         <p>{pageText.His3}</p>
         <p>{pageText.His4}</p>
-        <h3>{pageText.paraFour}</h3>
+        <h2>{pageText.paraFour}</h2>
         <p>{pageText.Ex0}</p>
         <p>{pageText.Ex1}</p>
         <p>{pageText.Ex2}</p>
