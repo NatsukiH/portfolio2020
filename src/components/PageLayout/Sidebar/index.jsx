@@ -42,19 +42,19 @@ const DomContent = () => (
             <FeatherIcon size="30" icon="calendar" />
             {' '}
           </span>
-&nbsp; &nbsp; July 27,1998
+&nbsp; &nbsp; 1998
         </li>
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="30" icon="mail" /></span>
           {' '}
-{/* &nbsp; &nbsp; Bangalore, India
+{/* &nbsp; &nbsp; Osaka, Japan
         </li>
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="mail" /></span>
           {' '} */}
 &nbsp; &nbsp;
           <a
-            href="mailto:&#114;&#111;&#108;&#119;&#105;&#110;&#109;&#111;&#110;&#116;&#101;&#105;&#114;&#111;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
+            href="mailto:&#110;&#97;&#116;&#115;u&#107;&#105;&#46;&#104;&#55;&#50;7&#64;&#103;ma&#105;&#108;.c&#111;m"
             target="_top"
           >
             <span className={style.emailHider}>@</span>

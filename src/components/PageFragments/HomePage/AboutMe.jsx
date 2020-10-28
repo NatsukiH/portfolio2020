@@ -8,6 +8,7 @@ import { stripTags, domHtml } from "../../../utils/stripTags"
 const pageText = {
   paraOne: `こんにちは！同志社大学理工学部インテリジェント情報工学科4年の橋本夏希です！`,
   paraTwo: `データサイエンス・データ分析・機械学習に興味があり、現在ソーシャルメディアデータの知識抽出・可視化について研究しています`,
+  
   paraThree: `--History--`,
   His0: "★ 同志社大学 理工学部 インテリジェント情報工学科 入学（2017）",
   His1:
@@ -16,6 +17,11 @@ const pageText = {
     "★ 2019年度同志社ローム記念館プロジェクト「ProntiatVR」WEB班・UX班(サブリーダー)所属（2019）",
   His3: "★ 同志社大学理工学部 知的機構研究室に所属（2020~）",
   His4: "★ 同志社大学大学院 理工学研究科 知的機構研究室 入学予定（2021）",
+
+  paraFive: `--Research--`,
+  Res0: "★ 可視化合宿 参加・登壇 （2020.9）",
+  Res1: "★ ABCIミニキャンプ 参加 （2020.10）",
+
   paraFour: `--Experiense--`,
   Ex0: "★ エンジニア志望学生LT大会-TechStudtyGroup#2（2020.5）",
   Ex1: "★ 技育祭 学生LT大会（2020.7）",
@@ -50,6 +56,9 @@ const AboutMe = () => {
         <p>{pageText.His2}</p>
         <p>{pageText.His3}</p>
         <p>{pageText.His4}</p>
+        <h2>{pageText.paraFive}</h2>
+        <p>{pageText.Res0}</p>
+        <p>{pageText.Res1}</p>
         <h2>{pageText.paraFour}</h2>
         <p>{pageText.Ex0}</p>
         <p>{pageText.Ex1}</p>
