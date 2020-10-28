@@ -124,6 +124,30 @@ const AboutMe = () => {
             textH4="ハッカソンで使用．このサイトはGatsby.jsで制作"
           />
         </Col>
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="d3.svg"
+            alt="d3 image"
+            textH3="D3.js (2020~)"
+            textH4="研究で可視化インターフェースの制作のために使用"
+          />
+        </Col>
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="django.svg"
+            alt="django image"
+            textH3="Django (2020~)"
+            textH4="簡単なWEBアプリ制作のために使用"
+          />
+        </Col>
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="unity.svg"
+            alt="unity image"
+            textH3="Unity (2020~)"
+            textH4="簡単なチュートリアルを完走"
+          />
+        </Col>
       </Row>
       <h1 className="titleSeparate">Skills (Others)</h1>
       <p>{pageText.Skill0}</p>
