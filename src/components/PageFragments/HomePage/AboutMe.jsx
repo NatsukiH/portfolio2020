@@ -29,6 +29,8 @@ const pageText = {
   Ex3: "★ オンコン（2020.7）",
   Ex4: "★ サマーハッカソン（2020.8）",
   Ex5: "★ Open Huck U（2020.9）",
+  Ex6: "★ 初音ミク「マジカルミライ 2020」プログラミング・コンテスト（2020.11）",
+  Ex7: "★ Mask×Technology これからのマスクを考えるアイデアコンペティション 一次選考突破（2020.11）",
 
   Skill0: "TOEIC: 710",
   Skill1: "英検2級",
@@ -66,6 +68,8 @@ const AboutMe = () => {
         <p>{pageText.Ex3}</p>
         <p>{pageText.Ex4}</p>
         <p>{pageText.Ex5}</p>
+        <p>{pageText.Ex6}</p>
+        <p>{pageText.Ex7}</p>
       </div>
       <h1 className="titleSeparate">Skills (Programming)</h1>
       <Row gutter={[20, 20]}>

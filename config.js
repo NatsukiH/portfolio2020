@@ -107,5 +107,17 @@ module.exports = {
         "A general purpose programming language that is widely used for developing various applications.",
       color: "#f9c646",
     },
+    idea: {
+      name: "idea",
+      description:
+        "A general purpose programming language that is widely used for developing various applications.",
+      color: "#f9c646",
+    },
+    flask: {
+      name: "flask",
+      description:
+        "A general purpose programming language that is widely used for developing various applications.",
+      color: "#f9c646",
+    },
   },
 }
