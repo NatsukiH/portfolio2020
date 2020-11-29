@@ -157,6 +157,22 @@ const AboutMe = () => {
             textH4="簡単なチュートリアルを完走"
           />
         </Col>
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="heroku.svg"
+            alt="heroku image"
+            textH3="heroku (2020~)"
+            textH4="いくつかのWEBアプリをデプロイするのに使用"
+          />
+        </Col>
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="flask.svg"
+            alt="flask image"
+            textH3="Flask (2020~)"
+            textH4="簡単な機械学習アプリの制作に使用"
+          />
+        </Col>
       </Row>
       <h1 className="titleSeparate">Skills (Others)</h1>
       <p>{pageText.Skill0}</p>
