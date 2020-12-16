@@ -36,6 +36,12 @@ const pageText = {
   Skill1: "英検2級",
   Skill2: "基本情報技術者試験合格",
   Skill3: "AtCoder: 茶色",
+
+  Skill91: "漢検2級",
+  Skill92: "語彙・読解力検定2級",
+  Skill93: "硬筆書写技能検定試験3級",
+  Skill94: "日本語検定準3級",
+
 }
 
 const AboutMe = () => {
@@ -55,8 +61,8 @@ const AboutMe = () => {
         <h2>{pageText.paraThree}</h2>
         <p>{pageText.His0}</p>
         <p>{pageText.His1}</p>
-        <p>{pageText.His2}</p>
-        <p>{pageText.His3}</p>
+        <p><a href="./blog/pronti_ux_kiroku"><font color="#0f52a6">{pageText.His2}</font></a></p>
+        <p><a href="https://mm.doshisha.ac.jp/"><font color="#0f52a6">{pageText.His3}</font></a></p>
         <p>{pageText.His4}</p>
         <h2>{pageText.paraFive}</h2>
         <p>{pageText.Res0}</p>
@@ -121,6 +127,8 @@ const AboutMe = () => {
             textH4="プロジェクトと個人で使用．WebVRやLINEbotなどを制作"
           />
         </Col>
+        </Row>
+        <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="react.svg"
@@ -145,20 +153,24 @@ const AboutMe = () => {
             textH4="研究で可視化インターフェースの制作のために使用"
           />
         </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
-          <AboutTile
-            img="django.svg"
-            alt="django image"
-            textH3="Django (2020~)"
-            textH4="簡単なWEBアプリ制作のために使用"
-          />
-        </Col>
+        </Row>
+        <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="unity.svg"
             alt="unity image"
             textH3="Unity (2020~)"
             textH4="簡単なチュートリアルを完走"
+          />
+        </Col>
+        </Row>
+        <Row gutter={[20, 20]}>
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="django.svg"
+            alt="django image"
+            textH3="Django (2020~)"
+            textH4="簡単なWEBアプリ制作のために使用"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
@@ -183,6 +195,11 @@ const AboutMe = () => {
       <p>{pageText.Skill1}</p>
       <p>{pageText.Skill2}</p>
       <p>{pageText.Skill3}</p>
+      <p>-------------</p>
+      <p>{pageText.Skill91}</p>
+      <p>{pageText.Skill92}</p>
+      <p>{pageText.Skill93}</p>
+      <p>{pageText.Skill94}</p>
     </>
   )
 }
