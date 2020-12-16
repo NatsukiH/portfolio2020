@@ -62,14 +62,14 @@ const AboutMe = () => {
         <p>{pageText.Res0}</p>
         <p>{pageText.Res1}</p>
         <h2>{pageText.paraFour}</h2>
-        <p>{pageText.Ex0}</p>
-        <p>{pageText.Ex1}</p>
-        <p>{pageText.Ex2}</p>
-        <p>{pageText.Ex3}</p>
-        <p>{pageText.Ex4}</p>
-        <p>{pageText.Ex5}</p>
-        <p>{pageText.Ex6}</p>
-        <p>{pageText.Ex7}</p>
+        <p><a href="./blog/deeplearning_nyuumonn"><font color="#0f52a6">{pageText.Ex0}</font></a></p>
+        <p><a href="./blog/anatanomikata_bot" ><font color="#0f52a6">{pageText.Ex1}</font></a></p>
+        <p><a href="./blog/yowayowa_kaggle" ><font color="#0f52a6">{pageText.Ex2}</font></a></p>
+        <p><a href="./blog/oncon" ><font color="#0f52a6">{pageText.Ex3}</font></a></p>
+        <p><a href="./blog/portfolio" ><font color="#0f52a6">{pageText.Ex4}</font></a></p>
+        <p><a href="./blog/open_hack_u_2020" ><font color="#0f52a6">{pageText.Ex5}</font></a></p>
+        <p><a href="./blog/mm2020procon" ><font color="#0f52a6">{pageText.Ex6}</font></a></p>
+        <p><a href="./blog/mask_ideaconpe" ><font color="#0f52a6">{pageText.Ex7}</font></a></p>
       </div>
       <h1 className="titleSeparate">Skills (Programming)</h1>
       <Row gutter={[20, 20]}>
