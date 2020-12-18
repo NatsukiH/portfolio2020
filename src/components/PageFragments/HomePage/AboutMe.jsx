@@ -32,6 +32,14 @@ const pageText = {
   Ex6: "★ 初音ミク「マジカルミライ 2020」プログラミング・コンテスト（2020.11）",
   Ex7: "★ Mask×Technology これからのマスクを考えるアイデアコンペティション 一次選考突破（2020.11）",
 
+  paraSix: '--Internship--',
+  paraSix1: '【2days, 3days】',
+  Intern10: "★ アイレップ「コミュニケーションプランニングコース」(2days, 2019.8)",
+  Intern11: "★ NTT西日本「NExT One Main」(3days, 2019.9)",
+  Intern12: "★ ニフティ「【エンジニア向け】データ分析を学ぶ！開発3daysインターン」(3days, 2019.9)",
+  paraSix2: '【1day】',
+  Intern20: "ブリッジコーポレーション(2019.7), sky(2019.7), データフォーシーズ(2019.8,2019.12), TISソリューションリンク(2019.8), グッドパッチ(2019.8), D2C(2019.8), Acroquest Technology(2019.9), FBS(2019.11)",
+
   Skill0: "TOEIC: 710",
   Skill1: "英検2級",
   Skill2: "基本情報技術者試験合格",
@@ -76,6 +84,14 @@ const AboutMe = () => {
         <p><a href="./blog/open_hack_u_2020" ><font color="#0f52a6">{pageText.Ex5}</font></a></p>
         <p><a href="./blog/mm2020procon" ><font color="#0f52a6">{pageText.Ex6}</font></a></p>
         <p><a href="./blog/mask_ideaconpe" ><font color="#0f52a6">{pageText.Ex7}</font></a></p>
+        
+        <h2>{pageText.paraSix}</h2>
+        <h3>{pageText.paraSix1}</h3>
+        <p>{pageText.Intern10}</p>
+        <p>{pageText.Intern11}</p>
+        <p>{pageText.Intern12}</p>
+        <h3>{pageText.paraSix2}</h3>
+        <p>{pageText.Intern20}</p>
       </div>
       <h1 className="titleSeparate">Skills (Programming)</h1>
       <Row gutter={[20, 20]}>
