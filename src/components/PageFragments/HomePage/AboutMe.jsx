@@ -10,27 +10,31 @@ const pageText = {
   paraTwo: `データサイエンス・データ分析・機械学習に興味があり、現在ソーシャルメディアデータの知識抽出・可視化について研究しています`,
   
   paraThree: `--History--`,
-  His0: "★ 同志社大学 理工学部 インテリジェント情報工学科 入学（2017）",
+  His0: "★ 同志社大学 理工学部 インテリジェント情報工学科 入学 (2017)",
   His1:
-    "★ 2018年度同志社ローム記念館プロジェクト「ProntiatVR」WEB班所属（2018）",
+    "★ 2018年度同志社ローム記念館プロジェクト「ProntiatVR」WEB班所属 (2018)",
   His2:
-    "★ 2019年度同志社ローム記念館プロジェクト「ProntiatVR」WEB班・UX班(サブリーダー)所属（2019）",
-  His3: "★ 同志社大学理工学部 知的機構研究室に所属（2020~）",
-  His4: "★ 同志社大学大学院 理工学研究科 知的機構研究室 入学予定（2021）",
+    "★ 2019年度同志社ローム記念館プロジェクト「ProntiatVR」WEB班・UX班(サブリーダー)所属 (2019)",
+  His3: "★ 同志社大学理工学部 知的機構研究室に所属 (2020~)",
+  His4: "★ 同志社大学大学院 理工学研究科 知的機構研究室 入学予定 (2021)",
 
   paraFive: `--Research--`,
-  Res0: "★ 可視化合宿 参加・登壇 （2020.9）",
-  Res1: "★ ABCIミニキャンプ 参加 （2020.10）",
+  Res0: "★ 可視化合宿 参加・登壇  (2020.9)",
+  Res1: "★ ABCIミニキャンプ 参加  (2020.10)",
 
   paraFour: `--Experiense--`,
-  Ex0: "★ エンジニア志望学生LT大会-TechStudtyGroup#2（2020.5）",
-  Ex1: "★ 技育祭 学生LT大会（2020.7）",
-  Ex2: "★ エンジニア志望学生LT大会-TechStudtyGroup#5（2020.7）",
-  Ex3: "★ オンコン（2020.7）",
-  Ex4: "★ サマーハッカソン（2020.8）",
-  Ex5: "★ Open Huck U（2020.9）",
-  Ex6: "★ 初音ミク「マジカルミライ 2020」プログラミング・コンテスト（2020.11）",
-  Ex7: "★ Mask×Technology これからのマスクを考えるアイデアコンペティション 一次選考突破（2020.11）",
+  Ex0: "★ エンジニア志望学生LT大会-TechStudtyGroup#2 (2020.5)",
+  Ex1: "★ 技育祭 学生LT大会 (2020.7)",
+  Ex2: "★ エンジニア志望学生LT大会-TechStudtyGroup#5 (2020.7)",
+  Ex3: "★ オンコン (2020.7)",
+  Ex4: "★ サマーハッカソン (2020.8)",
+  Ex5: "★ Open Huck U (2020.9)",
+  Ex6: "★ 初音ミク「マジカルミライ 2020」プログラミング・コンテスト (2020.11)",
+  Ex7: "★ Mask×Technology これからのマスクを考えるアイデアコンペティション 【一次選考突破】 (2020.11)",
+  Ex8: "★ ウインターハッカソン vol.5 【入選】 (2020.12)",
+
+  paraSeven: `--Data Conpetition--`,
+  Data0: "★ atmacup #8 (2020.12)",
 
   paraSix: '--Internship--',
   paraSix1: '【2days, 3days】',
@@ -84,6 +88,10 @@ const AboutMe = () => {
         <p><a href="./blog/open_hack_u_2020" ><font color="#0f52a6">{pageText.Ex5}</font></a></p>
         <p><a href="./blog/mm2020procon" ><font color="#0f52a6">{pageText.Ex6}</font></a></p>
         <p><a href="./blog/mask_ideaconpe" ><font color="#0f52a6">{pageText.Ex7}</font></a></p>
+        <p><a href="" ><font color="#0f52a6">{pageText.Ex8}</font></a></p>
+
+        <h2>{pageText.paraSeven}</h2>
+        <p>{pageText.Data0}</p>
         
         <h2>{pageText.paraSix}</h2>
         <h3>{pageText.paraSix1}</h3>
