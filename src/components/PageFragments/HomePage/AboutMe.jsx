@@ -88,7 +88,7 @@ const AboutMe = () => {
         <p><a href="./blog/open_hack_u_2020" ><font color="#0f52a6">{pageText.Ex5}</font></a></p>
         <p><a href="./blog/mm2020procon" ><font color="#0f52a6">{pageText.Ex6}</font></a></p>
         <p><a href="./blog/mask_ideaconpe" ><font color="#0f52a6">{pageText.Ex7}</font></a></p>
-        <p><a href="" ><font color="#0f52a6">{pageText.Ex8}</font></a></p>
+        <p><a href="./blog/winter_hackathon5" ><font color="#0f52a6">{pageText.Ex8}</font></a></p>
 
         <h2>{pageText.paraSeven}</h2>
         <p>{pageText.Data0}</p>
