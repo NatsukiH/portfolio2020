@@ -119,5 +119,11 @@ module.exports = {
         "A general purpose programming language that is widely used for developing various applications.",
       color: "#f9c646",
     },
+    blog: {
+      name: "blog",
+      description:
+        "A general purpose programming language that is widely used for developing various applications.",
+      color: "#f9c646",
+    },
   },
 }

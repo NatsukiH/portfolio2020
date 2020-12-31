@@ -1,6 +1,6 @@
 ---
 title: "2020年の振り返り"
-tags: []
+tags: [blog]
 date: 2020-12-31
 path: blog/review2020
 cover: ./no_image.jpg
