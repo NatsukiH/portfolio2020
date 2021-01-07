@@ -151,6 +151,14 @@ const AboutMe = () => {
             textH4="プロジェクトと個人で使用．WebVRやLINEbotなどを制作"
           />
         </Col>
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="mysql.svg"
+            alt="MySQL image"
+            textH3="MySQL (2021~)"
+            textH4="勉強中"
+          />
+        </Col>
         </Row>
         <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
