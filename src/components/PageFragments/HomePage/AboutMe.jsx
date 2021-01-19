@@ -46,14 +46,13 @@ const pageText = {
 
   Skill0: "TOEIC: 710",
   Skill1: "英検2級",
-  Skill2: "基本情報技術者試験合格",
-  Skill3: "AtCoder: 茶色",
+  Skill2: "応用情報技術者試験合格",
+  Skill3: "基本情報技術者試験合格",
+  Skill4: "AtCoder: 茶色",
 
   Skill91: "漢検2級",
   Skill92: "語彙・読解力検定2級",
   Skill93: "硬筆書写技能検定試験3級",
-  Skill94: "日本語検定準3級",
-
 }
 
 const AboutMe = () => {
@@ -227,11 +226,11 @@ const AboutMe = () => {
       <p>{pageText.Skill1}</p>
       <p>{pageText.Skill2}</p>
       <p>{pageText.Skill3}</p>
+      <p>{pageText.Skill4}</p>
       <p>-------------</p>
       <p>{pageText.Skill91}</p>
       <p>{pageText.Skill92}</p>
       <p>{pageText.Skill93}</p>
-      <p>{pageText.Skill94}</p>
     </>
   )
 }
