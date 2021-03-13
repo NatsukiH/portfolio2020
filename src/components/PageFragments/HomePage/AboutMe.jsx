@@ -24,14 +24,17 @@ const pageText = {
 
   paraFour: `--Experiense--`,
   Ex0: "★ エンジニア志望学生LT大会-TechStudtyGroup#2 (2020.5)",
-  Ex1: "★ 技育祭 学生LT大会 (2020.7)",
+  Ex1: "★ 技育祭 学生LT大会 登壇 (2020.7)",
   Ex2: "★ エンジニア志望学生LT大会-TechStudtyGroup#5 (2020.7)",
   Ex3: "★ オンコン (2020.7)",
   Ex4: "★ サマーハッカソン (2020.8)",
-  Ex5: "★ Open Huck U (2020.9)",
+  Ex5: "★ Open Huck U vol.3 (2020.9)",
   Ex6: "★ 初音ミク「マジカルミライ 2020」プログラミング・コンテスト (2020.11)",
   Ex7: "★ Mask×Technology これからのマスクを考えるアイデアコンペティション 【一次選考突破】 (2020.11)",
   Ex8: "★ ウインターハッカソン vol.5 【入選】 (2020.12)",
+  Ex9: "★ ウインターハッカソン vol.7 【入選】 (2021.2)",
+  Ex10: "★ 技育祭 学生LT大会 登壇 (2021.3)",
+  Ex11: "★ Open Huck U vol.4 (2021.3)",
 
   paraSeven: `--Data Conpetition--`,
   Data0: "★ atmacup #8 (2020.12)",
@@ -88,6 +91,9 @@ const AboutMe = () => {
         <p><a href="./blog/mm2020procon" ><font color="#0f52a6">{pageText.Ex6}</font></a></p>
         <p><a href="./blog/mask_ideaconpe" ><font color="#0f52a6">{pageText.Ex7}</font></a></p>
         <p><a href="./blog/winter_hackathon5" ><font color="#0f52a6">{pageText.Ex8}</font></a></p>
+        <p>{pageText.Ex9}</p>
+        <p>{pageText.Ex10}</p>
+        <p>{pageText.Ex11}</p>
 
         <h2>{pageText.paraSeven}</h2>
         <p>{pageText.Data0}</p>
@@ -188,22 +194,23 @@ const AboutMe = () => {
         <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="unity.svg"
-            alt="unity image"
-            textH3="Unity (2020~)"
-            textH4="簡単なチュートリアルを完走"
-          />
-        </Col>
-        </Row>
-        <Row gutter={[20, 20]}>
-        <Col xs={24} sm={24} md={12} lg={8}>
-          <AboutTile
             img="django.svg"
             alt="django image"
             textH3="Django (2020~)"
             textH4="簡単なWEBアプリ制作のために使用"
           />
         </Col>
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="flask.svg"
+            alt="flask image"
+            textH3="Flask (2020~)"
+            textH4="WEBアプリ制作のために使用"
+          />
+        </Col>
+        </Row>
+  
+        <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="heroku.svg"
@@ -214,10 +221,10 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="flask.svg"
-            alt="flask image"
-            textH3="Flask (2020~)"
-            textH4="簡単な機械学習アプリの制作に使用"
+            img="firebase.svg"
+            alt="firebase image"
+            textH3="firebase (2020~)"
+            textH4="いくつかのWEBアプリをデプロイするのに使用"
           />
         </Col>
       </Row>
