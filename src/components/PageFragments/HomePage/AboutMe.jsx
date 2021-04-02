@@ -38,8 +38,11 @@ const pageText = {
 
   paraSeven: `--Data Conpetition--`,
   Data0: "★ atmacup #8 (2020.12)",
+  Data1: "★ DeNA Spring Competition 2021 (2021.3)",
 
   paraSix: '--Internship--',
+  paraSix0: '【長期】',
+  Intern00: "★ ディップ株式会社 データサイエンティスト職 (2021.3~)",
   paraSix1: '【2days, 3days】',
   Intern10: "★ アイレップ「コミュニケーションプランニングコース」(2days, 2019.8)",
   Intern11: "★ NTT西日本「NExT One Main」(3days, 2019.9)",
@@ -87,18 +90,21 @@ const AboutMe = () => {
         <p><a href="./blog/yowayowa_kaggle" ><font color="#0f52a6">{pageText.Ex2}</font></a></p>
         <p><a href="./blog/oncon" ><font color="#0f52a6">{pageText.Ex3}</font></a></p>
         <p><a href="./blog/portfolio" ><font color="#0f52a6">{pageText.Ex4}</font></a></p>
-        <p><a href="./blog/open_hack_u_2020" ><font color="#0f52a6">{pageText.Ex5}</font></a></p>
+        <p><a href="./blog/open_hack_u_2020_3" ><font color="#0f52a6">{pageText.Ex5}</font></a></p>
         <p><a href="./blog/mm2020procon" ><font color="#0f52a6">{pageText.Ex6}</font></a></p>
         <p><a href="./blog/mask_ideaconpe" ><font color="#0f52a6">{pageText.Ex7}</font></a></p>
         <p><a href="./blog/winter_hackathon5" ><font color="#0f52a6">{pageText.Ex8}</font></a></p>
-        <p>{pageText.Ex9}</p>
+        <p><a href="./blog/winter_hackathon7" ><font color="#0f52a6">{pageText.Ex9}</font></a></p>
         <p>{pageText.Ex10}</p>
-        <p>{pageText.Ex11}</p>
+        <p><a href="./blog/open_hack_u_2020_4" ><font color="#0f52a6">{pageText.Ex11}</font></a></p>
 
         <h2>{pageText.paraSeven}</h2>
-        <p>{pageText.Data0}</p>
+        <p><a href="./blog/atmacup8" ><font color="#0f52a6">{pageText.Data0}</font></a></p>
+        <p>{pageText.Data1}</p>
         
         <h2>{pageText.paraSix}</h2>
+        <h3>{pageText.paraSix0}</h3>
+        <p>{pageText.Intern00}</p>
         <h3>{pageText.paraSix1}</h3>
         <p>{pageText.Intern10}</p>
         <p>{pageText.Intern11}</p>

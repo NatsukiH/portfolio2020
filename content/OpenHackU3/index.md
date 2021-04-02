@@ -2,7 +2,7 @@
 title: "Open Hack U 2020 vol.3 「目覚まし人事」"
 tags: [reactjs]
 date: 2020-09-01
-path: blog/open_hack_u_2020
+path: blog/open_hack_u_2020_3
 cover: ./top.png
 excerpt: Open Hack Uというハッカソンで「目覚まし人事」というプロダクトを作りました
 ---

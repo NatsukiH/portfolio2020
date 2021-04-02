@@ -13,7 +13,7 @@ import 'prismjs/themes/prism-solarizedlight.css';
 import './highlight-syntax.less';
 import style from './post.module.less';
 
-const Post = ({ data }) => {
+function Post({ data }) {
   const { html, frontmatter } = data.markdownRemark;
   const {
     title, cover: { childImageSharp: { fluid } }, excerpt, path,
@@ -22,7 +22,7 @@ const Post = ({ data }) => {
   const canonicalUrl = Utils.resolvePageUrl(
     Config.siteUrl,
     Config.pathPrefix,
-    path,
+    path
   );
   return (
     <Layout className="outerPadding">
@@ -41,7 +41,7 @@ const Post = ({ data }) => {
       </Layout>
     </Layout>
   );
-};
+}
 
 export const pageQuery = graphql`
   query($postPath: String!) {
