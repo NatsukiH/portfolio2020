@@ -6,8 +6,8 @@ import { stripTags, domHtml } from "../../../utils/stripTags"
 // import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `こんにちは！同志社大学理工学部インテリジェント情報工学科4年の橋本夏希です！`,
-  paraTwo: `データサイエンス・データ分析・機械学習に興味があり、現在ソーシャルメディアデータの知識抽出・可視化について研究しています`,
+  paraOne: `こんにちは！同志社大学大学院 理工学研究科 情報工学専攻 修士1年の橋本夏希です！`,
+  paraTwo: `データサイエンス・データ分析に興味があり、現在ソーシャルメディアデータの知識抽出・可視化について研究しています`,
   
   paraThree: `--History--`,
   His0: "★ 同志社大学 理工学部 インテリジェント情報工学科 入学 (2017)",
@@ -16,7 +16,8 @@ const pageText = {
   His2:
     "★ 2019年度同志社ローム記念館プロジェクト「ProntiatVR」WEB班・UX班(サブリーダー)所属 (2019)",
   His3: "★ 同志社大学理工学部 知的機構研究室に所属 (2020~)",
-  His4: "★ 同志社大学大学院 理工学研究科 知的機構研究室 入学予定 (2021)",
+  His4:"★ 同志社大学 理工学部 インテリジェント情報工学科 卒業 (2021)",
+  His5: "★ 同志社大学大学院 理工学研究科 情報工学専攻 知的機構研究室 入学 (2021)",
 
   paraFive: `--Research--`,
   Res0: "★ 可視化合宿 参加・登壇  (2020.9)",
@@ -35,10 +36,12 @@ const pageText = {
   Ex9: "★ ウインターハッカソン vol.7 【入選】 (2021.2)",
   Ex10: "★ 技育祭 学生LT大会 登壇 (2021.3)",
   Ex11: "★ Open Huck U vol.4 (2021.3)",
+  Ex12: "★ RECRUIT データサイエンス×Airレジ 2DAYS Hackathon (2021.5)",
 
   paraSeven: `--Data Conpetition--`,
   Data0: "★ atmacup #8 (2020.12)",
   Data1: "★ DeNA Spring Competition 2021 (2021.3)",
+  Data2: "★ SIGNATE Student Cup 2021春 (2021.4~5)",
 
   paraSix: '--Internship--',
   paraSix0: '【長期】',
@@ -79,8 +82,9 @@ const AboutMe = () => {
         <p>{pageText.His0}</p>
         <p>{pageText.His1}</p>
         <p><a href="./blog/pronti_ux_kiroku"><font color="#0f52a6">{pageText.His2}</font></a></p>
-        <p><a href="https://mm.doshisha.ac.jp/"><font color="#0f52a6">{pageText.His3}</font></a></p>
+        <p><a href="https://iml.doshisha.ac.jp/"><font color="#0f52a6">{pageText.His3}</font></a></p>
         <p>{pageText.His4}</p>
+        <p>{pageText.His5}</p>
         <h2>{pageText.paraFive}</h2>
         <p>{pageText.Res0}</p>
         <p>{pageText.Res1}</p>
@@ -97,10 +101,12 @@ const AboutMe = () => {
         <p><a href="./blog/winter_hackathon7" ><font color="#0f52a6">{pageText.Ex9}</font></a></p>
         <p>{pageText.Ex10}</p>
         <p><a href="./blog/open_hack_u_2020_4" ><font color="#0f52a6">{pageText.Ex11}</font></a></p>
+        <p><a href="https://engineers.recruit-jinji.jp/event/1303/"><font color="#0f52a6">{pageText.Ex12}</font></a></p>
 
         <h2>{pageText.paraSeven}</h2>
         <p><a href="./blog/atmacup8" ><font color="#0f52a6">{pageText.Data0}</font></a></p>
         <p>{pageText.Data1}</p>
+        <p>{pageText.Data2}</p>
         
         <h2>{pageText.paraSix}</h2>
         <h3>{pageText.paraSix0}</h3>
