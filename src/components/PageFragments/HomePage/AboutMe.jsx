@@ -8,7 +8,7 @@ import { stripTags, domHtml } from "../../../utils/stripTags"
 const pageText = {
   paraOne: `こんにちは！同志社大学大学院 理工学研究科 情報工学専攻 修士1年の橋本夏希です！`,
   paraTwo: `データサイエンス・データ分析に興味があり、現在ソーシャルメディアデータの知識抽出・可視化について研究しています`,
-  
+
   paraThree: `--History--`,
   His0: "★ 同志社大学 理工学部 インテリジェント情報工学科 入学 (2017)",
   His1:
@@ -16,7 +16,7 @@ const pageText = {
   His2:
     "★ 2019年度同志社ローム記念館プロジェクト「ProntiatVR」WEB班・UX班(サブリーダー)所属 (2019)",
   His3: "★ 同志社大学理工学部 知的機構研究室に所属 (2020~)",
-  His4:"★ 同志社大学 理工学部 インテリジェント情報工学科 卒業 (2021)",
+  His4: "★ 同志社大学 理工学部 インテリジェント情報工学科 卒業 (2021)",
   His5: "★ 同志社大学大学院 理工学研究科 情報工学専攻 知的機構研究室 入学 (2021)",
 
   paraFive: `--Research--`,
@@ -38,7 +38,7 @@ const pageText = {
   Ex11: "★ Open Huck U vol.4 (2021.3)",
   Ex12: "★ RECRUIT データサイエンス×Airレジ 2DAYS Hackathon (2021.5)",
 
-  paraSeven: `--Data Conpetition--`,
+  paraSeven: `--Data Competition--`,
   Data0: "★ atmacup #8 (2020.12)",
   Data1: "★ DeNA Spring Competition 2021 (2021.3)",
   Data2: "★ SIGNATE Student Cup 2021春 (2021.4~5)",
@@ -107,7 +107,7 @@ const AboutMe = () => {
         <p><a href="./blog/atmacup8" ><font color="#0f52a6">{pageText.Data0}</font></a></p>
         <p>{pageText.Data1}</p>
         <p>{pageText.Data2}</p>
-        
+
         <h2>{pageText.paraSix}</h2>
         <h3>{pageText.paraSix0}</h3>
         <p>{pageText.Intern00}</p>
@@ -176,8 +176,8 @@ const AboutMe = () => {
             textH4="勉強中"
           />
         </Col>
-        </Row>
-        <Row gutter={[20, 20]}>
+      </Row>
+      <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="react.svg"
@@ -202,8 +202,8 @@ const AboutMe = () => {
             textH4="研究で可視化インターフェースの制作のために使用"
           />
         </Col>
-        </Row>
-        <Row gutter={[20, 20]}>
+      </Row>
+      <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="django.svg"
@@ -220,9 +220,9 @@ const AboutMe = () => {
             textH4="WEBアプリ制作のために使用"
           />
         </Col>
-        </Row>
-  
-        <Row gutter={[20, 20]}>
+      </Row>
+
+      <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="heroku.svg"
